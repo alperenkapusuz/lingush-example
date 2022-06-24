@@ -1,0 +1,96 @@
+.navbar{
+    background-color: #E43E8B;
+    height: 70px;
+}
+
+.nav-img-p{
+  margin-left: 100px;
+  display: flex;
+  height: 60px;
+
+}
+
+.collapse{
+  background-color: #E43E8B;
+  padding-left: 600px;
+}
+
+.lingush-logo{
+    height: 50px;
+    margin-top: 6px;
+    object-fit: contain;
+}
+
+.lingush-name{
+  font-family: 'Titan One', cursive;
+  margin-left: 30px;
+  font-size: 50px;
+  margin-top: -10px;
+}
+
+.select-language-dropdown{
+  font-family: 'Merriweather Sans', sans-serif;
+  padding-top: 6px;
+  margin-right: 60px;
+}
+
+
+.login-button {
+  appearance: button;
+  background-color: #C32571;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #E43E8B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 80px;
+}
+
+.login-button:after {
+  background-clip: padding-box;
+  background-color: white;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.login-button:main,
+.login-button:focus {
+  user-select: auto;
+}
+
+.login-button:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.login-button:disabled {
+  cursor: auto;
+}
