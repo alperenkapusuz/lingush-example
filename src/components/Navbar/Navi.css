@@ -12,20 +12,20 @@
 
 .collapse{
   background-color: #E43E8B;
-  padding-left: 600px;
+  padding-left: 650px;
 }
 
 .lingush-logo{
     height: 50px;
-    margin-top: 6px;
+    margin-top: 2px;
     object-fit: contain;
 }
 
 .lingush-name{
   font-family: 'Titan One', cursive;
   margin-left: 30px;
-  font-size: 50px;
-  margin-top: -10px;
+  font-size: 30px;
+  margin-top: 3px;
 }
 
 .select-language-dropdown{
