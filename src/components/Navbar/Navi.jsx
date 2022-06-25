@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { NavDropdown } from "react-bootstrap";
 import logo from "../../images/navbar/logo.png";
 import "./Navi.css";
 
