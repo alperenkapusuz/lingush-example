@@ -66,3 +66,98 @@
     font-family: 'Merriweather Sans', sans-serif;
     color: #E43E8B;
 }
+
+.mainmenu-lingush-app-col1{
+    width: 350px;
+    height: 563px;
+}
+
+.mainmenu-lingush-app-col1 img{
+    
+    object-fit: cover;
+    margin-left: 150px;
+    margin-top:60px;
+}
+
+.mainmenu-lingush-app-col2 h3{
+    font-size: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #E43E8B;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.mainmenu-lingush-app-col2 p{
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 15px;
+}
+
+.mainmenu-lingush-app-col2-div1{
+    display: flex;
+}
+
+.link-button {
+    appearance: button;
+    background-color: #C32571;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #E43E8B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 150px;
+    margin-left: 20px;
+  }
+
+  .mainmenu-lingush-app-col2-div2{
+    margin-top: 100px;
+  }
+  
+  .link-button:after {
+    background-clip: padding-box;
+    background-color: rgb(232, 232, 232);
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .link-button:main,
+  .link-button:focus {
+    user-select: auto;
+  }
+  
+  .link-button:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .link-button:disabled {
+    cursor: auto;
+  }
