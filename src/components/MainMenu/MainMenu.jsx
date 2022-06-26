@@ -20,7 +20,7 @@ function MainMenu() {
   return (
     <section className="mainmenu-page">
       {/*  Hosgeldiniz  */}
-      <Container className="mainmenu-welcome">
+      <Container className="mainmenu-welcome" id="mainmenu-welcome">
         <Row>
           <Col className="welcome-div-img">
             <img className="welcome-img" src={turtle} alt="turtle" />
@@ -33,7 +33,7 @@ function MainMenu() {
       </Container>
       <hr />
       {/* Neden lingush */}
-      <Container className="mainmenu-why-lingush">
+      <Container className="mainmenu-why-lingush" id="mainmenu-why-lingush">
         <Carousel className="mainmenu-carousel" fade variant="dark">
           <Carousel.Item>
             <img src={g1} alt="slide1" />
@@ -98,7 +98,7 @@ function MainMenu() {
       </Container>
       <hr />
       {/* lingush uygulamasi  */}
-      <Container className="mainmenu-lingush-app">
+      <Container className="mainmenu-lingush-app" id="mainmenu-lingush-app">
         <Row>
           <Col sm className="mainmenu-lingush-app-col1">
             <img src={frame1} alt="frame1" style={{ width: "270px" }} />
@@ -149,7 +149,7 @@ function MainMenu() {
       </Container>
       <hr />
       {/* Satin alin  */}
-      <Container className="mainmenu-buy">
+      <Container className="mainmenu-buy" id="mainmenu-buy">
         <div className="mainmenu-buy-title">
           <h3>SATIN ALIN</h3>
         </div>
@@ -226,22 +226,22 @@ function MainMenu() {
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                   <h6 className="text-uppercase fw-bold mb-4">İçerik</h6>
                   <p>
-                    <a href="#!" className="text-reset">
+                    <a href="#mainmenu-welcome" className="text-reset">
                       Ana Sayfa
                     </a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">
+                    <a href="#mainmenu-why-lingush" className="text-reset">
                       Neden Lingush
                     </a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">
+                    <a href="#mainmenu-lingush-app" className="text-reset">
                       Lingush Uygulaması
                     </a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">
+                    <a href="#mainmenu-buy" className="text-reset">
                       Satın Al
                     </a>
                   </p>
