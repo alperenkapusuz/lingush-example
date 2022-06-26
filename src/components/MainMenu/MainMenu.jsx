@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
+import { MDBFooter } from "mdb-react-ui-kit";
 import turtle from "../../images/mainmenu/turtle2.png";
 import g1 from "../../images/whyLingush/g1.png";
 import g2 from "../../images/whyLingush/g2.png";
@@ -121,22 +122,26 @@ function MainMenu() {
                 />
               </div>
               <div className="mainmenu-lingush-app-col2-div2">
-                <button className="link-button">
-                  <img
-                    style={{ width: "23px" }}
-                    src={appStoreImg}
-                    alt="app-store"
-                  />
-                  App Store
-                </button>
-                <button className="link-button">
-                  <img
-                    style={{ width: "23px" }}
-                    src={playStoreImg}
-                    alt="play-store"
-                  />
-                  Play Store
-                </button>
+                <form action="https://apps.apple.com/tr/app/lingush/id1553733072?l=tr">
+                  <button className="link-button" type="submit">
+                    <img
+                      style={{ width: "23px" }}
+                      src={appStoreImg}
+                      alt="app-store"
+                    />
+                    App Store
+                  </button>
+                </form>
+                <form action="https://play.google.com/store/apps/details?id=com.MyDos.Lingush">
+                  <button className="link-button" type="submit">
+                    <img
+                      style={{ width: "23px" }}
+                      src={playStoreImg}
+                      alt="play-store"
+                    />
+                    Play Store
+                  </button>
+                </form>
               </div>
             </div>
           </Col>
@@ -145,6 +150,9 @@ function MainMenu() {
       <hr />
       {/* Satin alin  */}
       <Container className="mainmenu-buy">
+        <div className="mainmenu-buy-title">
+          <h3>SATIN ALIN</h3>
+        </div>
         <Row>
           <Col xs={6}>
             <Row className="mainmenu-buy-row1">
@@ -155,10 +163,7 @@ function MainMenu() {
                 <p> Uygulamayı tanımak ve başlamak için ideal</p>
               </div>
               <div>
-                <img
-                  src={buyLingush1}
-                  alt="buy-lingush-1"
-                />
+                <img src={buyLingush1} alt="buy-lingush-1" />
               </div>
             </Row>
           </Col>
@@ -174,19 +179,132 @@ function MainMenu() {
                 </p>
               </div>
               <div>
-                <img
-                  src={buyLingush1}
-                  alt="buy-lingush-1"
-                
-                />
+                <img src={buyLingush2} alt="buy-lingush-1" />
               </div>
             </Row>
           </Col>
         </Row>
       </Container>
+      <hr />
       {/* Footer  */}
       <Container className="mainmenu-footer">
+        <MDBFooter
+          bgColor="white"
+          className="text-center text-lg-start text-muted"
+        >
+          <section className="">
+            <div className="container text-center text-md-start mt-5">
+              <div className="row mt-3">
+                <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <h6 className="text-uppercase fw-bold mb-4">
+                    <i className="fas fa-gem me-3"></i>LİNGUSH
+                  </h6>
+                  <div className="mainmenu-footer-col2-div2">
+                    <form action="https://apps.apple.com/tr/app/lingush/id1553733072?l=tr">
+                      <button className="link-button" type="submit">
+                        <img
+                          style={{ width: "23px" }}
+                          src={appStoreImg}
+                          alt="app-store"
+                        />
+                        App Store
+                      </button>
+                    </form>
+                    <form action="https://play.google.com/store/apps/details?id=com.MyDos.Lingush">
+                      <button className="link-button" type="submit">
+                        <img
+                          style={{ width: "23px" }}
+                          src={playStoreImg}
+                          alt="play-store"
+                        />
+                        Play Store
+                      </button>
+                    </form>
+                  </div>
+                </div>
 
+                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <h6 className="text-uppercase fw-bold mb-4">İçerik</h6>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Ana Sayfa
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Neden Lingush
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Lingush Uygulaması
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Satın Al
+                    </a>
+                  </p>
+                </div>
+
+                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <h6 className="text-uppercase fw-bold mb-4">
+                    Yardım Merkezi
+                  </h6>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Gizlilik Politikası
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Şartlar ve Koşullar
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Bizimle İletişime Geçin
+                    </a>
+                  </p>
+                </div>
+
+                <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <h6 className="text-uppercase fw-bold mb-4">Sosyal Medya</h6>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Facebook
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      İnstagram
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Twitter
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Linkedin
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div
+            className="text-center p-4"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+          >
+            © 2021 Copyright:
+            <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+              MyDosTech All Rights Reserved Designed by MydosTechnology
+            </a>
+          </div>
+        </MDBFooter>
       </Container>
     </section>
   );

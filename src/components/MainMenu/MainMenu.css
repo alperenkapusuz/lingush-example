@@ -1,55 +1,37 @@
 .mainmenu-page{
     margin: auto;
-    /* background-color: yellow; */
     margin-top: 40px;
 }
 
 .mainmenu-welcome{
     margin: auto;
-    /* width: 1172px;
-    height: 440px; */
-    /* background-color: green; */
     display: flex;
     margin: auto;
     margin-bottom: 50px;
 }
 
-.welcome-div-img{
-    /* background-color: yellow; */
-    /* width: 360px;
-    height: 360px;
-    margin: 40px; */
-}
-
 .welcome-img{
     object-fit: contain;
     width: 360px;
-    /* background-color: red; */
     margin: auto;
     margin-left: 80px;
 }
 
 .welcome-p{
-    /* background-color: blue; */
-    /* height: 130px; */
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
     line-height: 40px;
     padding-top: 150px;
     margin: auto;
     margin-right: 50px;
-    /* color: white; */
-    /* margin-top: 120px; */
 }
 
 .mainmenu-why-lingush{
-    /* background-color: blue; */
     height: 500px;
     margin-top: 40px;
 }
 
 .mainmenu-carousel{
-    /* background-color: red; */
     margin: auto;
     width: 600px;
     height: 500px;
@@ -101,10 +83,15 @@
     margin: auto;
 }
 
+.mainmenu-buy-title{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #E43E8B;
+}
+
 .mainmenu-buy-row1{
     display: flex;
     margin: auto;
-    padding-left: 20px;
 }
 
 .mainmenu-buy-row1 h3{
@@ -117,17 +104,19 @@
 .mainmenu-buy-row1 p{
     font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
+    font-size: 12px;
 }
 
 .mainmenu-buy-row1 img{
     width: 170px;
     margin: auto;
-    margin-top: 30px;
-    margin-left: 170px;
+    margin-top: 5px;
+    margin-left: 240px;
 }
 
 .mainmenu-buy-row2{
     display: flex;
+    padding-right: 40px;
 }
 
 .mainmenu-buy-row2 h3{
@@ -140,14 +129,16 @@
 .mainmenu-buy-row2 p{
     font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
+    font-size: 12px;
 }
 
 .mainmenu-buy-row2 img{
     width: 170px;
     margin: auto;
     margin-top: 5px;
-    margin-left: 170px;
+    margin-left: 210px;
 }
+
 
 .link-button {
     appearance: button;
