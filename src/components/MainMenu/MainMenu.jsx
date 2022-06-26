@@ -7,10 +7,12 @@ import g3 from "../../images/whyLingush/g3.png";
 import g4 from "../../images/whyLingush/g4.png";
 import g5 from "../../images/whyLingush/g5.png";
 import g6 from "../../images/whyLingush/g6.png";
-import frame1 from "../../images/lingush-app/Frame1.png"
-import dowloadNow from "../../images/lingush-app/download-now.png"
-import appStoreImg from "../../images/lingush-app/appstore.png"
-import playStoreImg from "../../images/lingush-app/googleplay.png"
+import frame1 from "../../images/lingush-app/Frame1.png";
+import dowloadNow from "../../images/lingush-app/download-now.png";
+import appStoreImg from "../../images/lingush-app/appstore.png";
+import playStoreImg from "../../images/lingush-app/googleplay.png";
+import buyLingush1 from "../../images/buy-lingush/picture1.png";
+import buyLingush2 from "../../images/buy-lingush/picture2.png";
 import "./MainMenu.css";
 
 function MainMenu() {
@@ -98,27 +100,94 @@ function MainMenu() {
       <Container className="mainmenu-lingush-app">
         <Row>
           <Col sm className="mainmenu-lingush-app-col1">
-            <img src={frame1} alt="frame1" style={{width:"270px"}} />
+            <img src={frame1} alt="frame1" style={{ width: "270px" }} />
           </Col>
           <Col sm className="mainmenu-lingush-app-col2">
             <h3>LINGUSH MOBİL UYGULAMASI</h3>
-            <p>Lingush deneyiminize ister akıllı telefon ister tablet yoluyla hemen başlayabilirsiniz!</p>
+            <p>
+              Lingush deneyiminize ister akıllı telefon ister tablet yoluyla
+              hemen başlayabilirsiniz!
+            </p>
             <div className="mainmenu-lingush-app-col2-div1">
               <div>
-                <img src={dowloadNow} alt="dowload-now" style={{width:"140px", marginLeft:"50px", marginTop:"50px"}}/>
+                <img
+                  src={dowloadNow}
+                  alt="dowload-now"
+                  style={{
+                    width: "140px",
+                    marginLeft: "50px",
+                    marginTop: "50px",
+                  }}
+                />
               </div>
               <div className="mainmenu-lingush-app-col2-div2">
-                <button className="link-button"> <img style={{width:"23px"}} src={appStoreImg} alt="app-store" /> App Store</button>
-                <button className="link-button"> <img style={{width:"23px"}} src={playStoreImg} alt="play-store" /> Play Store</button>
+                <button className="link-button">
+                  <img
+                    style={{ width: "23px" }}
+                    src={appStoreImg}
+                    alt="app-store"
+                  />
+                  App Store
+                </button>
+                <button className="link-button">
+                  <img
+                    style={{ width: "23px" }}
+                    src={playStoreImg}
+                    alt="play-store"
+                  />
+                  Play Store
+                </button>
               </div>
             </div>
           </Col>
         </Row>
       </Container>
+      <hr />
       {/* Satin alin  */}
-      <div className="mainmenu-buy"></div>
+      <Container className="mainmenu-buy">
+        <Row>
+          <Col xs={6}>
+            <Row className="mainmenu-buy-row1">
+              <div>
+                <h3> BAŞLANGIÇ PAKETİ</h3>
+              </div>
+              <div>
+                <p> Uygulamayı tanımak ve başlamak için ideal</p>
+              </div>
+              <div>
+                <img
+                  src={buyLingush1}
+                  alt="buy-lingush-1"
+                />
+              </div>
+            </Row>
+          </Col>
+          <Col xs={6}>
+            <Row className="mainmenu-buy-row2">
+              <div>
+                <h3>PREMİUM PAKET</h3>
+              </div>
+              <div>
+                <p>
+                  Daha fazla seçenek, daha gelişmiş özellikler, daha fazla
+                  özelliğe erişim, daha iyi bir yapay zeka deneyimi
+                </p>
+              </div>
+              <div>
+                <img
+                  src={buyLingush1}
+                  alt="buy-lingush-1"
+                
+                />
+              </div>
+            </Row>
+          </Col>
+        </Row>
+      </Container>
       {/* Footer  */}
-      <div className="mainmenu-footer"></div>
+      <Container className="mainmenu-footer">
+
+      </Container>
     </section>
   );
 }

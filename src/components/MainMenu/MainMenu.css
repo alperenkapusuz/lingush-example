@@ -97,6 +97,58 @@
     display: flex;
 }
 
+.mainmenu-buy{
+    margin: auto;
+}
+
+.mainmenu-buy-row1{
+    display: flex;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.mainmenu-buy-row1 h3{
+    font-size: 23px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #E43E8B;
+    text-align: center;
+}
+
+.mainmenu-buy-row1 p{
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+.mainmenu-buy-row1 img{
+    width: 170px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+
+.mainmenu-buy-row2{
+    display: flex;
+}
+
+.mainmenu-buy-row2 h3{
+    font-size: 23px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #E43E8B;
+    text-align: center;
+}
+
+.mainmenu-buy-row2 p{
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+.mainmenu-buy-row2 img{
+    width: 170px;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 170px;
+}
+
 .link-button {
     appearance: button;
     background-color: #C32571;
