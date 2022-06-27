@@ -27,7 +27,7 @@ const Navi = () => {
               <NavDropdown.Item>Ingilizce</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Nav.Link href="/auth" >
+          <Nav.Link href="/login" >
             <button className="login-button">GİRİŞ</button>
           </Nav.Link>
         </Navbar.Collapse>
