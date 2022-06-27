@@ -252,17 +252,17 @@ function MainMenu() {
                     Yardım Merkezi
                   </h6>
                   <p>
-                    <a href="#!" className="text-reset">
+                    <a href="/about-us" className="text-reset">
                       Gizlilik Politikası
                     </a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">
+                    <a href="/about-us" className="text-reset">
                       Şartlar ve Koşullar
                     </a>
                   </p>
                   <p>
-                    <a href="#!" className="text-reset">
+                    <a href="/about-us" className="text-reset">
                       Bizimle İletişime Geçin
                     </a>
                   </p>

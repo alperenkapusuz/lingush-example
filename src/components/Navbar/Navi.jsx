@@ -14,7 +14,7 @@ const Navi = () => {
     >
       <Container>
         <img src={logo} alt="lingush-logo" className="lingush-logo"/>
-        <Navbar.Brand className="navbar-name">LINGUSH</Navbar.Brand>
+        <Navbar.Brand href="/" className="navbar-name">LINGUSH</Navbar.Brand>
         <Navbar.Toggle
           className="navbar-toggle"
           aria-controls="responsive-navbar-nav"
