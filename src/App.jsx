@@ -7,6 +7,7 @@ import DashBoard from "./components/DashBoard/DashBoard";
 import SignUp from "./components/Auth/SignUp";
 import Login from "./components/Auth/Login";
 import { AuthProvider } from "./contexts/AuthContexts";
+import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
-        <Route exact path="/dashboard" element={<DashBoard />} />
+        <Route path="/dashboard" element={<PrivateRoute><DashBoard/></PrivateRoute>} />
       </Routes>
       </AuthProvider>
     </BrowserRouter>
